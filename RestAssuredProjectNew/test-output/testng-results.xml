@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-24T20:35:56 IST" name="Default suite" finished-at="2024-12-24T20:36:24 IST" duration-ms="27522">
+    <groups>
+    </groups>
+    <test started-at="2024-12-24T20:35:56 IST" name="Default test" finished-at="2024-12-24T20:36:24 IST" duration-ms="27522">
+      <class name="com.TelecomDomainProject.Telecomprj">
+        <test-method signature="addNewUser()[pri:1, instance:com.TelecomDomainProject.Telecomprj@771a660]" started-at="2024-12-24T20:35:56 IST" name="addNewUser" finished-at="2024-12-24T20:36:09 IST" duration-ms="12984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewUser -->
+        <test-method signature="getProfile()[pri:2, instance:com.TelecomDomainProject.Telecomprj@771a660]" started-at="2024-12-24T20:36:09 IST" name="getProfile" finished-at="2024-12-24T20:36:11 IST" depends-on-methods="com.TelecomDomainProject.Telecomprj.addNewUser" duration-ms="1576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProfile -->
+        <test-method signature="updateUser()[pri:3, instance:com.TelecomDomainProject.Telecomprj@771a660]" started-at="2024-12-24T20:36:11 IST" name="updateUser" finished-at="2024-12-24T20:36:12 IST" duration-ms="1713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+        <test-method signature="loginUser()[pri:4, instance:com.TelecomDomainProject.Telecomprj@771a660]" started-at="2024-12-24T20:36:13 IST" name="loginUser" finished-at="2024-12-24T20:36:14 IST" duration-ms="1582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+        <test-method signature="addContact()[pri:5, instance:com.TelecomDomainProject.Telecomprj@771a660]" started-at="2024-12-24T20:36:14 IST" name="addContact" finished-at="2024-12-24T20:36:16 IST" duration-ms="1714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addContact -->
+        <test-method signature="getContactList()[pri:6, instance:com.TelecomDomainProject.Telecomprj@771a660]" started-at="2024-12-24T20:36:16 IST" name="getContactList" finished-at="2024-12-24T20:36:17 IST" duration-ms="1602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getContactList -->
+        <test-method signature="getContact()[pri:7, instance:com.TelecomDomainProject.Telecomprj@771a660]" started-at="2024-12-24T20:36:18 IST" name="getContact" finished-at="2024-12-24T20:36:19 IST" duration-ms="1514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getContact -->
+        <test-method signature="updateContact()[pri:8, instance:com.TelecomDomainProject.Telecomprj@771a660]" started-at="2024-12-24T20:36:19 IST" name="updateContact" finished-at="2024-12-24T20:36:21 IST" duration-ms="1495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateContact -->
+        <test-method signature="updateContactpatch()[pri:9, instance:com.TelecomDomainProject.Telecomprj@771a660]" started-at="2024-12-24T20:36:21 IST" name="updateContactpatch" finished-at="2024-12-24T20:36:22 IST" duration-ms="1478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateContactpatch -->
+        <test-method signature="logoutUser()[pri:10, instance:com.TelecomDomainProject.Telecomprj@771a660]" started-at="2024-12-24T20:36:22 IST" name="logoutUser" finished-at="2024-12-24T20:36:24 IST" duration-ms="1446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutUser -->
+      </class> <!-- com.TelecomDomainProject.Telecomprj -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
